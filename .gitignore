@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+env_3.9/
+chroma/
+stanford_project/
+outputs/
+/tmp/
+.DS_Store
