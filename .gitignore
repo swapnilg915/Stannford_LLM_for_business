@@ -13,3 +13,5 @@ stanford_project/
 outputs/
 /tmp/
 .DS_Store
+data/sample_article.pdf
+data/sample_vehicle_act.txt

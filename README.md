@@ -2,15 +2,14 @@
 
 This folder contains Stanford TECH16 notebooks for Large Language Model homework and projects. The notebooks are prepared for Python 3.10 and read secrets from environment variables.
 
-## Included Notebooks
+## Repository Structure
 
-- `Insurance_Claim_settlement_System.ipynb`
-- `Insurance_Claim_settlement_System(1).ipynb`
-- `TECH16_LLM_WEEK_1_HW.ipynb`
-- `TECH16_LLM_Week_3_HW.ipynb`
-- `TECH16_WEEK_2_HW.ipynb`
-- `TECH16_Week_6_HW.ipynb`
-- `Stanford_Notebook_Scaffold.ipynb`
+- `TECH16_LLM_WEEK_1.ipynb`
+- `TECH16_LLM_WEEK_2.ipynb`
+- `TECH16_LLM_WEEK_3.ipynb`
+- `TECH16_LLM_WEEK_6.ipynb`
+- `TECH16_LLM_FINAL_PROJECT_Insurance_Claim_Settlement_Assistant.ipynb`
+- `data/` contains PDF inputs used by the notebooks.
 
 ## Python 3.10 Compatibility
 
@@ -48,7 +47,7 @@ jupyter notebook
 ### Execute a notebook from the command line
 
 ```bash
-jupyter nbconvert --to notebook --execute Insurance_Claim_settlement_System.ipynb --output executed.ipynb
+jupyter nbconvert --to notebook --execute TECH16_LLM_WEEK_2.ipynb --output executed.ipynb
 ```
 
 ## Setup on Google Colab
@@ -63,7 +62,7 @@ jupyter nbconvert --to notebook --execute Insurance_Claim_settlement_System.ipyn
 - Store API keys securely and do not commit them.
 - Gradio launch cells are opt-in. Set `LAUNCH_GRADIO=true` before running them.
 - Week 6 skips the local Mistral model by default because it is large. Set `RUN_LOCAL_MODEL=true` to download and run it.
-- The insurance claim notebooks use `India_motor_vehicle_act_1988.pdf` when present, otherwise they create a small sample rules file for runnable demos.
+- The final project notebook uses `data/India_motor_vehicle_act_1988.pdf` when present, otherwise it creates a small sample rules file for runnable demos.
 - The `requirements.txt` file includes packages required to run the Stanford notebooks on Python 3.10.
 
 ## Validation status
