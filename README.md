@@ -7,7 +7,9 @@ This folder contains Stanford TECH16 notebooks for Large Language Model homework
 - `TECH16_LLM_WEEK_1.ipynb`
 - `TECH16_LLM_WEEK_2.ipynb`
 - `TECH16_LLM_WEEK_3.ipynb`
+- `TECH16_LLM_WEEK_5.ipynb`
 - `TECH16_LLM_WEEK_6.ipynb`
+- `TECH16_LLM_MINI_PROJECT_Agentic_AI_CrewAI.ipynb`
 - `TECH16_LLM_FINAL_PROJECT_Insurance_Claim_Settlement_Assistant.ipynb`
 - `data/` contains PDF inputs used by the notebooks.
 
@@ -61,7 +63,10 @@ jupyter nbconvert --to notebook --execute TECH16_LLM_WEEK_2.ipynb --output execu
 - The notebooks have been sanitized to remove hard-coded keys.
 - Store API keys securely and do not commit them.
 - Gradio launch cells are opt-in. Set `LAUNCH_GRADIO=true` before running them.
+- Week 5 downloads a Goldman Sachs AI transcript into `data/` when first executed.
+- Week 5 Assistant API cells are opt-in. Set `RUN_ASSISTANT_API=true` to run them.
 - Week 6 skips the local Mistral model by default because it is large. Set `RUN_LOCAL_MODEL=true` to download and run it.
+- The Agentic AI mini-project skips CrewAI execution by default. Set `RUN_CREWAI=true` to run the agent crews.
 - The final project notebook uses `data/India_motor_vehicle_act_1988.pdf` when present, otherwise it creates a small sample rules file for runnable demos.
 - The `requirements.txt` file includes packages required to run the Stanford notebooks on Python 3.10.
 
